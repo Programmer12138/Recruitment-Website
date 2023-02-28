@@ -19,3 +19,4 @@ https://user-images.githubusercontent.com/72424079/221790693-98bf59f5-04b9-4cb1-
 
 https://user-images.githubusercontent.com/72424079/221806854-4094b705-319d-42b0-82a8-60e5df351887.mp4
 
+<br>the video below shows how employers post jobs:
