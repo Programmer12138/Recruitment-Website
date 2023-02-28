@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+        <title>Application</title>
+		
+        <!-- All Plugins Css -->
+        <link href="assets1/css/plugins.css" rel="stylesheet">
+		 
+
+        <!-- Custom CSS -->
+        <link href="assets1/css/styles.css" rel="stylesheet">
+		
+		<!-- Custom Color -->
+		<link href="assets1/css/skin/default.css" rel="stylesheet">
+    </head>
+	
+    <body class="green-skin bg-light">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="Loader"></div>
+		
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+		
+            <!-- ============================================================== -->
+            <!-- Top header  -->
+            <!-- ============================================================== -->
+            <!-- Start Navigation -->
+			<div class="header header-light">
+							<div class="container-fluid">
+								<nav id="navigation" class="navigation navigation-landscape">
+									<div class="nav-header">
+										<a class="nav-brand" href="#">
+											<img src="assets1/img/logo.png" class="logo" alt="" />
+										</a>
+										<div class="nav-toggle"></div>
+									</div>
+									<div class="nav-menus-wrapper" style="transition-property: none;">
+										<ul class="nav-menu">
+
+											<li class="active"><a href="#">Home<span class="submenu-indicator"></span></a>
+											</li>
+
+											<li><a href="#">Search for jobs<span class="submenu-indicator"></span></a>
+											</li>
+
+											<li><a href="#">Post a job<span class="submenu-indicator"></span></a>
+											</li>
+
+											<li><a href="#">null<span class="submenu-indicator"></span></a>
+											</li>
+
+										</ul>
+
+									</div>
+								</nav>
+							</div>
+						</div>
+			<!-- End Navigation -->
+			<div class="clearfix"></div>
+			<!-- ============================================================== -->
+			<!-- Top header  -->
+			<!-- ============================================================== -->
+			
+			
+			<!-- ============================ Hero Banner  Start================================== -->
+			<div class="page-title-wrap pt-img-wrap" style="background:url(assets1/img/banner-4.jpg) no-repeat;">
+				<div class="container">
+					<div class="col-lg-12 col-md-12">
+						<div class="pt-caption text-center">
+							<h1>Fill in the application form</h1>
+							<p><a href="job_search.html">Search for jobs</a><span class="current-page">Application</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<!-- ============================ Hero Banner End ================================== -->
+			
+			<!-- ============================ Who We Are Start ================================== -->
+			<section>
+				<div class="container">
+					
+					<div class="row justify-content-center">
+						
+						<div class="col-lg-7 col-md-7 col-sm-12">
+							<div class="modal-body">
+								<h4 class="modal-header-title">Interview <span>Arrangement</span></h4>
+								<div class="social-login center-tr">
+									<ul>
+										<li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Interview with Facebook</a></li>
+										<li><a href="#" class="btn connect-linked"><i class="ti-linkedin"></i>Interview with Linkedin</a></li>
+									</ul>
+								</div>
+								<div class="login-form">
+									<form>
+									
+										<div class="form-group">
+											<label>Choose date for interview</label>
+											<div class="input-with-gray">
+												<input type="date" class="form-control" value="2022-01-01" id="interview_time">
+												<i class="ti-time"></i>
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<label>Choose platform for interview</label>
+											<div class="input-with-gray">
+												<i class="ti-layers"></i>
+												<select id="interview_platform" class="js-states form-control">
+											<option value="Offline interview">Offline interview</option>
+											<option value="Online-Skype">Online-Skype</option>
+											<option value="Online-Telegram">Online-Telegram</option>
+											<option value="Online-A software">Online-A software</option>
+											<option value="Online-B software">Online-B software</option>
+										</select>
+											</div>
+										</div>
+										
+										<div class="form-group">
+											<button class="btn btn-primary btn-md full-width pop-login" onclick="application()">Apply now</button>
+										</div>
+									
+									</form>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</section>
+			<div class="clearfix"></div>
+			<!-- ============================ Who We Are End ================================== -->
+
+			<!-- ============================ Newsletter Start ================================== -->
+			<section class="alert-wrap pt-5 pb-5" style="background: #00a94f url(assets1/img/bg2.png);">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="jobalert-sec">
+								<h3 class="mb-1 text-light">Want to know new jobs?</h3>
+								<p class="text-light">Subscribe and it will be sent to your Email</p>
+							</div>
+						</div>
+
+						<div class="col-lg-6 col-md-6">
+							<div class="input-group">
+							  <input type="text" class="form-control" placeholder="enter your email">
+							  <div class="input-group-append">
+								<button type="button" class="btn btn-black black">Subscribe</button>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================ Newsletter Start ================================== -->			
+			
+			<!-- ============================ Footer Start ================================== -->
+			<footer class="dark-footer skin-dark-footer">
+				<div>
+					<div class="container">
+						<div class="row">
+							
+							<div class="col-lg-3 col-md-3">
+								<div class="footer-widget">
+									<img src="assets1/img/logo-light.png" class="img-footer" alt="" />
+									<div class="footer-add">
+										<p>China, Beijing</p>
+										<p><strong>Email:</strong></br><a href="#">123456@789.com</a></p>
+										<p><strong>Phone:</strong></br>86 123 456 789</p>
+									</div>
+									
+								</div>
+							</div>		
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">Navigations</h4>
+									<ul class="footer-menu">
+										<li><a href="#">New Home Design</a></li>
+										<li><a href="#">Browse Candidates</a></li>
+										<li><a href="#">Browse Employers</a></li>
+										<li><a href="#">Advance Search</a></li>
+										<li><a href="#">Job With Map</a></li>
+									</ul>
+								</div>
+							</div>
+									
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">The Highlights</h4>
+									<ul class="footer-menu">
+										<li><a href="#">Home Page 2</a></li>
+										<li><a href="#">Home Page 3</a></li>
+										<li><a href="#">Home Page 4</a></li>
+										<li><a href="#">Home Page 5</a></li>
+										<li><a href="#">LogIn</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-lg-2 col-md-2">
+								<div class="footer-widget">
+									<h4 class="widget-title">My Account</h4>
+									<ul class="footer-menu">
+										<li><a href="#">Dashboard</a></li>
+										<li><a href="#">Applications</a></li>
+										<li><a href="#">Packages</a></li>
+										<li><a href="#">resume.html</a></li>
+										<li><a href="#">SignUp Page</a></li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="col-lg-3 col-md-3">
+								<div class="footer-widget">
+									<h4 class="widget-title">Download Apps</h4>
+									<a href="#" class="other-store-link">
+										<div class="other-store-app">
+											<div class="os-app-icon">
+												<i class="ti-android theme-cl"></i>
+											</div>
+											<div class="os-app-caps">
+												Google Play
+												<span>Get It Now</span>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="other-store-link">
+										<div class="other-store-app">
+											<div class="os-app-icon">
+												<i class="ti-apple theme-cl"></i>
+											</div>
+											<div class="os-app-caps">
+												App Store
+												<span>Now it Available</span>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row align-items-center">
+							
+							<div class="col-lg-6 col-md-6">
+								<p class="mb-0">Copyright &copy; 2020.Company name All rights reserved.</p>
+							</div>
+							
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer-bottom-social">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- ============================ Footer End ================================== -->
+
+			<!-- Sign Up Modal -->
+			<div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="sign-up" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+					<div class="modal-content" id="sign-up">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true"><i class="ti-close"></i></span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h4 class="modal-header-title">Sign Up</h4>
+							<div class="social-login">
+								<ul>
+									<li><a href="#" class="btn connect-fb"><i class="ti-facebook"></i>Login with Facebook</a></li>
+									<li><a href="#" class="btn connect-gplus"><i class="ti-google"></i>Login with Gmail</a></li>
+								</ul>
+							</div>
+							
+							<div class="devide-wrap"><span>OR</span></div>
+							
+							<div class="login-form">
+								<form>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="form-group">
+												<label>Full Name</label>
+												<div class="input-with-gray">
+													<input type="text" class="form-control" placeholder="Your Name">
+													<i class="ti-user theme-cl"></i>
+												</div>
+											</div>
+										</div>
+										
+										<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="form-group">
+												<label>Email</label>
+												<div class="input-with-gray">
+													<input type="email" class="form-control" placeholder="Email ID">
+													<i class="ti-user theme-cl"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="form-group">
+												<label>Choose date of interview</label>
+												<div class="input-with-gray">
+													<input type="date" class="form-control">
+													<i class="ti-user theme-cl"></i>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="form-group">
+												<label>Password</label>
+												<div class="input-with-gray">
+													<input type="password" class="form-control" placeholder="*******">
+													<i class="ti-unlock theme-cl"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row">
+										<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="form-group">
+												<button type="submit" class="btn btn-primary btn-md full-width pop-login">Login</button>
+											</div>
+										</div>
+									</div>
+
+								</form>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<div class="mf-link"><i class="ti-user"></i>Already Have Account? Sign In</a></div>
+							<div class="mf-forget"><a href="#"><i class="ti-help"></i>Need Help</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Modal -->			
+
+		</div>
+		<!-- ============================================================== -->
+		<!-- End Wrapper -->
+		<!-- ============================================================== -->
+
+		<!-- ============================================================== -->
+		<!-- All Jquery -->
+		<!-- ============================================================== -->
+		<script src="assets1/js/jquery.min.js"></script>
+		<script src="assets1/js/popper.min.js"></script>
+		<script src="assets1/js/bootstrap.min.js"></script>
+		<script src="assets1/js/select2.min.js"></script>
+		<script src="assets1/js/aos.js"></script>
+		<script src="assets1/js/perfect-scrollbar.jquery.min.js"></script>
+		<script src="assets1/js/owl.carousel.min.js"></script>
+		<script src="assets1/js/jquery.counterup.min.js"></script>
+		<script src="assets1/js/slick.js"></script>
+		<script src="assets1/js/bootstrap-datepicker.js"></script>
+		<script src="assets1/js/isotope.min.js"></script>
+		<script src="assets1/js/summernote.js"></script>
+		<script src="assets1/js/jQuery.style.switcher.js"></script>
+		 
+		<script src="assets1/js/counterup.min.js"></script>
+		<script src="assets1/js/custom.js"></script>
+		<!-- 自己的 JS -->
+        <script src="js/my_functions.js"></script>
+		<!-- ============================================================== -->
+		<!-- This page plugins -->
+		<!-- ============================================================== -->
+
+
+	</body>
+</html>
