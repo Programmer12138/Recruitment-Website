@@ -1,5 +1,6 @@
 # Recruitment-Website
 This project is a JavaWeb project using Java JSP HTML css JavaScript for development. Its purpose is for job seekers to find jobs and employers to hire talents.<br>
+<br> REFERENCES:In the process of developing this website, I referred to some templates from the Internet, so this website has some similarities with other websites<br>
 the video below shows the homepage of this website:<br>
 
 https://user-images.githubusercontent.com/72424079/221785346-0cef1e99-a838-48c5-a857-4c9ed0d2ca06.mp4
