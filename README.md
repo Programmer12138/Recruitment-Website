@@ -29,3 +29,8 @@ https://user-images.githubusercontent.com/72424079/221870778-51793db8-4c88-4de0-
 
 https://user-images.githubusercontent.com/72424079/222032699-d1ab7494-761c-418d-bde4-4c5964203165.mp4
 
+<br>the video below shows the webpage that displays job details:
+
+
+https://user-images.githubusercontent.com/72424079/222035390-f5e860d0-42c8-4c5e-85ef-2a5479562394.mp4
+
