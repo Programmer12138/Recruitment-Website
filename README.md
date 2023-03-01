@@ -41,3 +41,9 @@ https://user-images.githubusercontent.com/72424079/222035390-f5e860d0-42c8-4c5e-
 
 https://user-images.githubusercontent.com/72424079/222038405-1010c335-1eb7-4e11-829f-456c5eaec23c.mp4
 
+
+<br>the video below shows the statistic page:
+
+
+https://user-images.githubusercontent.com/72424079/222136659-3a635d80-f659-4815-bf82-eb0c9a573054.mp4
+
