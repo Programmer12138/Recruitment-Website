@@ -24,3 +24,8 @@ https://user-images.githubusercontent.com/72424079/221806854-4094b705-319d-42b0-
 
 https://user-images.githubusercontent.com/72424079/221870778-51793db8-4c88-4de0-9f27-aceff393690b.mp4
 
+<br>the video below shows how to search for jobs:
+
+
+https://user-images.githubusercontent.com/72424079/222032699-d1ab7494-761c-418d-bde4-4c5964203165.mp4
+
