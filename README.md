@@ -33,4 +33,9 @@ https://user-images.githubusercontent.com/72424079/222032699-d1ab7494-761c-418d-
 
 
 https://user-images.githubusercontent.com/72424079/222035390-f5e860d0-42c8-4c5e-85ef-2a5479562394.mp4
+<br>the video below shows how candidates apply for jobs:
+
+
+
+https://user-images.githubusercontent.com/72424079/222038405-1010c335-1eb7-4e11-829f-456c5eaec23c.mp4
 
