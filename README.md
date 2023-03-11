@@ -76,5 +76,5 @@ Display the categories of jobs through the example icons like "ti-hummer" and "t
 ![image](https://user-images.githubusercontent.com/72424079/224461453-44a75173-99ab-41f5-89ed-5eb765b0835b.png)
 
 ### How the registration function is implemented:
-
+After filling in the information, click the sign-up button to execute the "signup" function bound to "onclick".
 
