@@ -66,3 +66,9 @@ First I designed this logo myself, then embedded it into the website, modify the
 Create a drop-down box by using "select-option":<br>
 ![image](https://user-images.githubusercontent.com/72424079/224461103-a6e6ed0f-4e01-4c86-895a-0aaac695bf2a.png)
 ![image](https://user-images.githubusercontent.com/72424079/224461142-e98606d3-90c3-4ea9-a5fb-68b013bcac56.png)
+
+Use "placeholder" to display sample answers in the text box:
+![image](https://user-images.githubusercontent.com/72424079/224461352-655080bf-b8fb-4500-b544-8051115f767c.png)
+![image](https://user-images.githubusercontent.com/72424079/224461366-48fc50a6-be24-424d-ba09-b4dda625339c.png)
+
+
