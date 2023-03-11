@@ -50,3 +50,4 @@ https://user-images.githubusercontent.com/72424079/222136659-3a635d80-f659-4815-
 
 <br>
 ## The aim of this project:
+<br>This website provides job seekers with a platform to find jobs and recruiters with a platform to recruit talents.
