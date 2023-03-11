@@ -59,3 +59,4 @@ MySQL8.0 database was used for storing data;<br>
 Java, JSP were used for back-end development and sever development;<br>
 Tomcat was used as server.
 ## Details about code and program:
+### How the webpages are developed:
