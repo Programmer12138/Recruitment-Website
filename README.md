@@ -60,3 +60,5 @@ Java, JSP were used for back-end development and sever development;<br>
 Tomcat was used as server.
 ## Details about code and program:
 ### How the webpages are developed:
+First I created this logo myself, then embedded it into the website, modify the attribute of the div to make it suitable for this page. <br>
+Create a drop-down box by using "select":<br>
