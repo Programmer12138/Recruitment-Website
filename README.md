@@ -78,5 +78,5 @@ Display the categories of jobs through the example icons like "ti-hummer" and "t
 ### How the registration function is implemented:
 After filling in the information, click the sign-up button to execute the "candidate_signup" function bound to "onclick".
 ![image](https://user-images.githubusercontent.com/72424079/224462451-2c49863c-697e-4514-b419-57488538e186.png)
-<br>This "candidate_signup" function first obtains the information filled in the text box by the user through the "getElementById" function, and then sends them to the JSP program on the backend server.<br>
+<br>This "candidate_signup" function first obtains the information filled in the text box by the user through the "getElementById" function, and then calls the "send" function to send them to the JSP program on the backend server.<br>
 ![image](https://user-images.githubusercontent.com/72424079/224462552-295d3e97-4c84-4205-b881-8604d7f94f25.png)
