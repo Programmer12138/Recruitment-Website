@@ -80,7 +80,7 @@ After filling in the information, click the sign-up button to execute the "candi
 ![image](https://user-images.githubusercontent.com/72424079/224462451-2c49863c-697e-4514-b419-57488538e186.png)
 <br>This "candidate_signup" function first obtains the information filled in the text box by the user through the "getElementById" function, and then calls the "send" function to send them to the JSP program on the backend server.<br>
 ![image](https://user-images.githubusercontent.com/72424079/224462552-295d3e97-4c84-4205-b881-8604d7f94f25.png)
-The JSP program in the back end server calls the "request.getParameter" method to receive the information sent by the front end browser, and then calls "DBConn.candidate_signup" method to store the information filled in by the user in the database.
+<br>The JSP program in the back end server calls the "request.getParameter" method to receive the information sent by the front end browser, and then calls "DBConn.candidate_signup" method to store the information filled in by the user in the database.
 ![image](https://user-images.githubusercontent.com/72424079/224462821-b2bfef28-554e-4bf0-b9ba-e3dd5a38e814.png)
 <br>In this "candidate_signup" method, the database will execute this statement "insert into candidate values(?,?,?,?,?,?,?,?,?,?,?)" to insert a new record to "candidate" table in the database. The parameters of this SQL statement(ex:email, name, etc) come from the parameters of the method.<br>
 ![image](https://user-images.githubusercontent.com/72424079/224462973-f00e4623-1b1a-4182-b07a-0279ede2a0e2.png)
