@@ -71,4 +71,7 @@ Use "placeholder" to display sample answers in the text box:
 ![image](https://user-images.githubusercontent.com/72424079/224461352-655080bf-b8fb-4500-b544-8051115f767c.png)
 ![image](https://user-images.githubusercontent.com/72424079/224461366-48fc50a6-be24-424d-ba09-b4dda625339c.png)
 
+Display the categories of jobs through the example icons like "ti-hummer" and "ti-money".
+![image](https://user-images.githubusercontent.com/72424079/224461441-07dc1ea4-d45a-403c-8b7d-770cc32ee6cb.png)
+![image](https://user-images.githubusercontent.com/72424079/224461453-44a75173-99ab-41f5-89ed-5eb765b0835b.png)
 
