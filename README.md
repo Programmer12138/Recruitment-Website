@@ -53,3 +53,8 @@ https://user-images.githubusercontent.com/72424079/222136659-3a635d80-f659-4815-
 
 ## The aim of this project:
 This website provides job seekers with a platform to find jobs and recruiters with a platform to recruit talents.This website has the following sub-modules: registration module, login module, position posting module, job searching module, job details page, application module, statistics module.
+## Tech stack of this website:
+HTML, CSS, JavaScript were used for front-end development and webpage development;<br>
+MySQL8.0 database was used for storing data;<br>
+Java, JSP were used for back-end development and sever development;<br>
+Tomcat was used as server.
