@@ -75,6 +75,6 @@ Display the categories of jobs through the example icons like "ti-hummer" and "t
 ![image](https://user-images.githubusercontent.com/72424079/224461441-07dc1ea4-d45a-403c-8b7d-770cc32ee6cb.png)
 ![image](https://user-images.githubusercontent.com/72424079/224461453-44a75173-99ab-41f5-89ed-5eb765b0835b.png)
 
-## How the registration function is implemented:
+### How the registration function is implemented:
 
 
