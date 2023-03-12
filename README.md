@@ -75,12 +75,16 @@ Display the categories of jobs through the example icons like "ti-hummer" and "t
 ![image](https://user-images.githubusercontent.com/72424079/224461441-07dc1ea4-d45a-403c-8b7d-770cc32ee6cb.png)
 ![image](https://user-images.githubusercontent.com/72424079/224461453-44a75173-99ab-41f5-89ed-5eb765b0835b.png)
 
-### How the registration function is implemented:
+### How the registration module is implemented:
 After filling in the information, click the sign-up button to execute the "candidate_signup" function bound to "onclick".
 ![image](https://user-images.githubusercontent.com/72424079/224462451-2c49863c-697e-4514-b419-57488538e186.png)
 <br>This "candidate_signup" function first obtains the information filled in the text box by the user through the "getElementById" function, and then calls the "send" function to send them to the JSP program on the backend server.<br>
 ![image](https://user-images.githubusercontent.com/72424079/224462552-295d3e97-4c84-4205-b881-8604d7f94f25.png)
 <br>The JSP program in the back end server calls the "request.getParameter" method to receive the information sent by the front end browser, and then calls "DBConn.candidate_signup" method to store the information filled in by the user in the database.
 ![image](https://user-images.githubusercontent.com/72424079/224462821-b2bfef28-554e-4bf0-b9ba-e3dd5a38e814.png)
-<br>In this "candidate_signup" method, the database will execute this statement "insert into candidate values(?,?,?,?,?,?,?,?,?,?,?)" to insert a new record to "candidate" table in the database. The parameters of this SQL statement(ex:email, name, etc) come from the parameters of the method.<br>
+<br>In this "candidate_signup" method, the database will execute this statement "insert into candidate values(?,?,?,?,?,?,?,?,?,?,?)" to insert a new record to "candidate" table in the database. The arguments(ex:email, name, etc) of this SQL statement come from the arguments of the method.<br>
 ![image](https://user-images.githubusercontent.com/72424079/224462973-f00e4623-1b1a-4182-b07a-0279ede2a0e2.png)
+
+### How the signin module is implemented:
+After the user enters the email and password, click the signin button. The email and password will be obtained through the "getElementById" function, and then sent to the JSP program of the back-end server. The JSP program will find the matching password in the database according to the email by calling the "signin" method. After finding it, it will judge whether the password in the database is the same as the password entered by the user. If they are the same, it means that the login is successful, otherwise, login fails.
+![image](https://user-images.githubusercontent.com/72424079/224536095-0008a1fc-0117-4777-87be-672e108db532.png)
