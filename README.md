@@ -88,3 +88,19 @@ After filling in the information, click the sign-up button to execute the "candi
 ### How the signin module is implemented:
 After the user enters the email and password, click the signin button. The email and password will be obtained through the "getElementById" function, and then sent to the JSP program of the back-end server. The JSP program will find the matching password in the database according to the email by calling the "signin" method. After finding it, it will judge whether the password in the database is the same as the password entered by the user. If they are the same, it means that the login is successful, otherwise, login fails.
 ![image](https://user-images.githubusercontent.com/72424079/224536095-0008a1fc-0117-4777-87be-672e108db532.png)
+
+### How job searching module is implemented:
+After the user enters the information in the search box, click the search button. The "onclick" of this button is bound to the "search_job" function:
+![image](https://user-images.githubusercontent.com/72424079/224540167-965fc6c3-cdd8-4c6a-a525-5e14c74e35cc.png)
+<br>This function will obtain the information filled by the user through the getElementById function, and then send it to the server's JSP program. The jsp program will find the information about this position from the database by calling the "search_job" method:
+![image](https://user-images.githubusercontent.com/72424079/224541525-1c4e49f0-dd1c-4cb5-b241-e162e935bcd2.png)
+
+<br>After the search is completed, the information is sent to the client by the JSP program through the "write" method:
+![image](https://user-images.githubusercontent.com/72424079/224541568-0f412ac4-70e9-46b8-9964-a563c902260e.png)
+
+<br>and the client calls the "responseText.split" function to parse the position information.
+![image](https://user-images.githubusercontent.com/72424079/224543386-4b3535cb-e64a-4168-b923-15ea2b898dc3.png)
+<br>Then, calculate the number of positions based on the number of returned information.<br>
+![image](https://user-images.githubusercontent.com/72424079/224543488-8ead450e-6884-4dd2-a987-afcc6aa6051c.png)
+<br>Then, according to the number of posts, create a corresponding number of divs and display them in the html page.
+![image](https://user-images.githubusercontent.com/72424079/224543535-bb69e547-b225-457e-87b9-ac3970a9e2ab.png)
